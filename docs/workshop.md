@@ -21,7 +21,8 @@ tags: javascript, api, node.js          # Required. Tags for filtering and searc
 #sections_title:                         # Optional. Override titles for each section to be displayed in the side bar
 #   - Section 1 title
 #   - Section 2 title
-
+<<<<<<< HEAD
+=======
 ---
 
 ![](https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/microsoftlogo.png)
@@ -93,5 +94,3 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
-
----
