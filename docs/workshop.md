@@ -23,6 +23,7 @@ tags: javascript, api, node.js          # Required. Tags for filtering and searc
 #   - Section 2 title
 
 ---
+
 ![](https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/microsoftlogo.png)
 # Workshop: SQL database in Microsoft Fabric
 
