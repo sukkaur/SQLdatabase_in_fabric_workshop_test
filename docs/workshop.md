@@ -1,16 +1,16 @@
 ---
 published: false                        # Optional. Set to true to publish the workshop (default: false)
 type: workshop                          # Required.
-title: Full workshop title              # Required. Full title of the workshop
-short_title: Short title                # Optional. Short title displayed in the header
+title: SQL database in Fabric           # Required. Full title of the workshop
+short_title: SQL database                # Optional. Short title displayed in the header
 description: This is a workshop for...  # Required.
 level: beginner                         # Required. Can be 'beginner', 'intermediate' or 'advanced'
 authors:                                # Required. You can add as many authors as needed      
-  - Name
+  - Sukhwant Kaur
 contacts:                               # Required. Must match the number of authors
-  - Author's email, Twitter...
-duration_minutes: 20                    # Required. Estimated duration in minutes
-tags: javascript, api, node.js          # Required. Tags for filtering and searching
+  - sukhwant.kaur@microsoft.com
+duration_minutes: 6 hrs                  # Required. Estimated duration in minutes
+tags: SQL                                # Required. Tags for filtering and searching
 #banner_url: assets/banner.jpg           # Optional. Should be a 1280x640px image
 #video_url: https://youtube.com/link     # Optional. Link to a video of the workshop
 #audience: students                      # Optional. Audience of the workshop (students, pro devs, etc.)
@@ -21,14 +21,9 @@ tags: javascript, api, node.js          # Required. Tags for filtering and searc
 #sections_title:                         # Optional. Override titles for each section to be displayed in the side bar
 #   - Section 1 title
 #   - Section 2 title
-<<<<<<< HEAD
-=======
----
 
-![](https://raw.githubusercontent.com/microsoft/sqlworkshops/master/graphics/microsoftlogo.png)
-# Workshop: SQL database in Microsoft Fabric
 
-## Overview
+# Overview
 
 #### A Microsoft Workshop from the SQL Server Team
 
@@ -36,31 +31,31 @@ Welcome to the *SQL database in Microsoft Fabric* workshop. This workshop is des
 
 The workshop is divided into several modules, each focusing on a specific aspect of SQL database in Microsoft Fabric. By the end of this workshop, you will have gained practical knowledge and hands-on experience in the following areas:
 
-### 0. [Pre-Requisites](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/00%20-%20Pre-Requisites/00%20-%20Pre-Requisites.md)
+# - 0. [Pre-Requisites](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/00%20-%20Pre-Requisites/00%20-%20Pre-Requisites.md)
 
 In this module, you will set up the necessary components and configurations required for the workshop. This includes setting up a PowerBI account, enabling SQL database in your Fabric Tenant settings, creating a Microsoft Azure account, and installing Node.js.
 
-### 1. [Introduction and Getting Started](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/01%20-%20Introduction%20and%20Getting%20Started/01%20-%20Introduction%20and%20Getting%20Started.md)
+# - 1. [Introduction and Getting Started](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/01%20-%20Introduction%20and%20Getting%20Started/01%20-%20Introduction%20and%20Getting%20Started.md)
 
 This module covers the basics of getting started with SQL database in Fabric. You will learn how to create workspaces, create a database, and seed the database with initial data that will be used in later modules.
 
-### 2. [Dataflows, Notebooks, and Reports](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/02%20-%20Dataflows%2C%20Notebooks%2C%20and%20Reports/02%20-%20Dataflows%2C%20Notebooks%2C%20and%20Reports.md)
+# - 2. [Dataflows, Notebooks, and Reports](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/02%20-%20Dataflows%2C%20Notebooks%2C%20and%20Reports/02%20-%20Dataflows%2C%20Notebooks%2C%20and%20Reports.md)
 
 In this module, you will explore the seamless integration between your SQL database and other artifacts within your Fabric workspace. You will learn how to ingest data via dataflows, create views using notebooks, and generate reports using integrated semantic models and views.
 
-### 3. [Incorporating Artificial Intelligence](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/03%20-%20Incorporating%20Artificial%20Intelligence/03%20-%20Incorporating%20Artificial%20Intelligence.md)
+# - 3. [Incorporating Artificial Intelligence](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/03%20-%20Incorporating%20Artificial%20Intelligence/03%20-%20Incorporating%20Artificial%20Intelligence.md)
 
 This module focuses on deploying an instance of Azure OpenAI, connecting your database to it, and using it to generate embeddings for similarity search. You will learn how to configure your SQL database to leverage Azure OpenAI and see SQL's vector database support in action.
 
-### 4. [Create an application with GraphQL](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/04%20-%20Create%20a%20simple%20application/04%20-%20Create%20a%20simple%20application.md)
+# - 4. [Create an application with GraphQL](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/04%20-%20Create%20a%20simple%20application/04%20-%20Create%20a%20simple%20application.md)
 
 This module focuses on building an application to connect to our database and find sessions related to the given query text.  In this module you will use the GraphQL API builder in Microsoft Fabric to quickly generate and run a Javascript program.
 
-### 5. [Application Lifecycle Management](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/05%20-%20Application%20Lifecycle%20Management/05%20-%20Application%20Lifecycle%20Management.md)
+# - 5. [Application Lifecycle Management](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/05%20-%20Application%20Lifecycle%20Management/05%20-%20Application%20Lifecycle%20Management.md)
 
 In this module, you will learn about managing the lifecycle of your application using source control. You will also learn how to monitor and maintain your SQL database in Fabric, including setting up Git integration, linking GitHub repositories to Azure DevOps, and synchronizing your workspace with the Git branch.
 
-### 6. [Performance Monitoring](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/06%20-%20Performance%20Monitoring/06%20-%20Performance%20Monitoring.md)
+# - 6. [Performance Monitoring](https://github.com/akatesmith/SQL-database-in-Fabric-Workshop/blob/main/sqldev/06%20-%20Performance%20Monitoring/06%20-%20Performance%20Monitoring.md)
 
 This module covers how to monitor the performance of your SQL database in Fabric. You will learn how to use the Performance Dashboard to view database performance metrics and identify query performance issues.
 
